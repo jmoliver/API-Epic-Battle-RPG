@@ -21,7 +21,7 @@ public class SwaggerConfig {
                 .select()
                 .apis(RequestHandlerSelectors.basePackage(
                         "com.avanade.ebr"))
-                .paths(regex("/ebr.*"))
+                .paths(regex("/api.*"))
                 .build()
                 .apiInfo(metaInfo());
     }
